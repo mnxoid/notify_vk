@@ -3,13 +3,13 @@ notify_vk
 
 Show your message from vk.com in notify-osd
 
-### Install vk api librarry
+### Install vk api library
 
 `sudo pip install vk`
  
 [Author](https://github.com/dimka665/vk)
  
-### Install supervisor to create demon
+### Install supervisor to create daemon
  
 `sudo pip install supervisor` 
  
@@ -28,7 +28,7 @@ stdout_logfile=./program.log  #address to log file
 
 `vkapi = vk.API('4597440', 'Your login', 'Your password', scope=2097151)`
 
-### Start our demon
+### Start our daemon
 
 `supervisord -c supervisord.conf # start with our config`
 
